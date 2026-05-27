@@ -171,7 +171,7 @@ The comparison naturally contains the relative offset:
 m - n
 ```
 
-One useful mental model:
+One useful way to think about it:
 
 ```text
 RoPE is many little unit-circle rotations happening side by side inside the embedding dimension.

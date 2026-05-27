@@ -224,7 +224,7 @@ v_1
 
 and so on.
 
-Mental model:
+Key idea:
 
 ```text
 Q = what am I looking for?
@@ -542,7 +542,7 @@ Each pair gets rotated using the rotation matrix:
  [sin angle,  cos angle]]
 ```
 
-The clean mental model:
+The clean takeaway:
 
 ```text
 tokens choose the angle
