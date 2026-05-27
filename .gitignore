@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Editor / OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and local output
+*.log
+*.tmp
+tmp/
+dist/
+build/
+
+# Local environment
+.env
+.env.*
