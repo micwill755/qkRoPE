@@ -1,0 +1,30 @@
+<svg width="560" height="380" viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#222"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1f77b4"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#d62728"/>
+    </marker>
+  </defs>
+  <rect width="560" height="380" fill="white"/>
+  <line x1="80" y1="200" x2="480" y2="200" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="280" y1="340" x2="280" y2="50" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <circle cx="280" cy="200" r="120" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="280" y1="200" x2="400" y2="200" stroke="#999" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="280" y1="200" x2="280" y2="80" stroke="#999" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="280" y1="200" x2="384" y2="140" stroke="#1f77b4" stroke-width="4" marker-end="url(#arrow-blue)"/>
+  <line x1="280" y1="200" x2="220" y2="96" stroke="#d62728" stroke-width="4" marker-end="url(#arrow-red)"/>
+  <path d="M330 200 A50 50 0 0 0 323.3 175" fill="none" stroke="#9467bd" stroke-width="2"/>
+  <path d="M280 150 A50 50 0 0 0 255 156.7" fill="none" stroke="#9467bd" stroke-width="2"/>
+  <text x="408" y="205" font-family="serif" font-size="17">e₁ = (1, 0)</text>
+  <text x="288" y="78" font-family="serif" font-size="17">e₂ = (0, 1)</text>
+  <text x="390" y="138" font-family="serif" font-size="17">Rθe₁ = (cos θ, sin θ)</text>
+  <text x="72" y="102" font-family="serif" font-size="17">Rθe₂ = (-sin θ, cos θ)</text>
+  <text x="337" y="181" font-family="serif" font-size="18">θ</text>
+  <text x="250" y="148" font-family="serif" font-size="18">θ</text>
+  <text x="265" y="220" font-family="serif" font-size="18">O</text>
+</svg>

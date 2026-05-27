@@ -1,0 +1,18 @@
+<svg width="560" height="360" viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="360" fill="white"/>
+  <line x1="90" y1="290" x2="470" y2="290" stroke="#222" stroke-width="2"/>
+  <line x1="90" y1="290" x2="285" y2="70" stroke="#222" stroke-width="2"/>
+  <line x1="285" y1="70" x2="470" y2="290" stroke="#222" stroke-width="2"/>
+  <line x1="285" y1="70" x2="285" y2="290" stroke="#777" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M285 275 L300 275 L300 290" fill="none" stroke="#777" stroke-width="2"/>
+  <path d="M123 290 A33 33 0 0 1 112 265" fill="none" stroke="#1f77b4" stroke-width="2"/>
+  <path d="M437 290 A33 33 0 0 0 448 265" fill="none" stroke="#d62728" stroke-width="2"/>
+  <text x="82" y="315" font-family="serif" font-size="20">A</text>
+  <text x="470" y="315" font-family="serif" font-size="20">B</text>
+  <text x="283" y="58" font-family="serif" font-size="20">C</text>
+  <text x="180" y="165" font-family="serif" font-size="20">b</text>
+  <text x="380" y="165" font-family="serif" font-size="20">a</text>
+  <text x="292" y="185" font-family="serif" font-size="20">h</text>
+  <text x="135" y="281" font-family="serif" font-size="20">A</text>
+  <text x="420" y="281" font-family="serif" font-size="20">B</text>
+</svg>

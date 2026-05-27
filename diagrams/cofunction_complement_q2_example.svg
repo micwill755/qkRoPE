@@ -1,0 +1,60 @@
+<svg width="900" height="460" viewBox="0 0 900 460" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#222"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="460" fill="white"/>
+
+  <!-- Axes and unit circle -->
+  <line x1="80" y1="250" x2="520" y2="250" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="300" y1="390" x2="300" y2="60" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <circle cx="300" cy="250" r="130" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Blue A in quadrant IV so 90° - A is quadrant II -->
+  <line x1="300" y1="250" x2="412.6" y2="315" stroke="#1f77b4" stroke-width="3"/>
+  <line x1="300" y1="250" x2="412.6" y2="250" stroke="#1f77b4" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="412.6" y1="315" x2="412.6" y2="250" stroke="#1f77b4" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M355 250 A55 55 0 0 1 347.6 277.5" fill="none" stroke="#1f77b4" stroke-width="2"/>
+  <circle cx="412.6" cy="315" r="5" fill="#1f77b4"/>
+
+  <!-- Green 90° - A in quadrant II -->
+  <line x1="300" y1="250" x2="235" y2="137.4" stroke="#2ca02c" stroke-width="3"/>
+  <line x1="300" y1="250" x2="235" y2="250" stroke="#2ca02c" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="235" y1="137.4" x2="235" y2="250" stroke="#2ca02c" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M235 234 L251 234 L251 250" fill="none" stroke="#2ca02c" stroke-width="2"/>
+  <path d="M300 195 A55 55 0 0 0 272.5 202.4" fill="none" stroke="#2ca02c" stroke-width="2"/>
+  <circle cx="235" cy="137.4" r="5" fill="#2ca02c"/>
+
+  <text x="287" y="272" font-family="serif" font-size="18" fill="#222">O</text>
+  <text x="526" y="256" font-family="serif" font-size="17" fill="#222">x</text>
+  <text x="306" y="62" font-family="serif" font-size="17" fill="#222">y</text>
+
+  <text x="358" y="288" font-family="serif" font-size="19" fill="#1f77b4">A</text>
+  <text x="420" y="337" font-family="serif" font-size="17" fill="#1f77b4">blue: angle A</text>
+  <text x="365" y="238" font-family="serif" font-size="16" fill="#1f77b4">cos A</text>
+  <text x="426" y="286" font-family="serif" font-size="16" fill="#1f77b4">sin A</text>
+
+  <text x="205" y="202" font-family="serif" font-size="18" fill="#2ca02c">90° - A</text>
+  <text x="74" y="122" font-family="serif" font-size="17" fill="#2ca02c">green: angle 90° - A</text>
+  <text x="238" y="286" font-family="serif" font-size="16" fill="#2ca02c">sin A</text>
+  <text x="160" y="198" font-family="serif" font-size="16" fill="#2ca02c">cos A</text>
+
+  <rect x="575" y="62" width="295" height="350" fill="#fff" stroke="#c9c9c9" stroke-width="1.5"/>
+  <text x="595" y="100" font-family="serif" font-size="20" fill="#222">Example 2: sign-aware</text>
+
+  <line x1="595" y1="132" x2="625" y2="132" stroke="#1f77b4" stroke-width="4"/>
+  <text x="640" y="138" font-family="serif" font-size="17" fill="#1f77b4">Blue A is below x-axis</text>
+  <text x="640" y="164" font-family="serif" font-size="16" fill="#1f77b4">so sin A is negative</text>
+
+  <line x1="595" y1="220" x2="625" y2="220" stroke="#2ca02c" stroke-width="4"/>
+  <text x="640" y="226" font-family="serif" font-size="17" fill="#2ca02c">Green 90° - A is in QII</text>
+  <text x="640" y="252" font-family="serif" font-size="16" fill="#2ca02c">x-coordinate is negative</text>
+  <text x="640" y="278" font-family="serif" font-size="16" fill="#2ca02c">that equals sin A</text>
+  <text x="640" y="304" font-family="serif" font-size="16" fill="#2ca02c">y-coordinate equals cos A</text>
+
+  <text x="595" y="352" font-family="serif" font-size="17" fill="#222">Same identities:</text>
+  <text x="595" y="377" font-family="serif" font-size="17" fill="#2ca02c">cos(90° - A) = sin A</text>
+  <text x="595" y="402" font-family="serif" font-size="17" fill="#2ca02c">sin(90° - A) = cos A</text>
+</svg>

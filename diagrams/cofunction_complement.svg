@@ -1,0 +1,64 @@
+<svg width="900" height="460" viewBox="0 0 900 460" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#222"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="460" fill="white"/>
+
+  <!-- Axes and unit circle -->
+  <line x1="80" y1="250" x2="520" y2="250" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="300" y1="390" x2="300" y2="60" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <circle cx="300" cy="250" r="130" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Blue angle A in quadrant I -->
+  <line x1="300" y1="250" x2="412.6" y2="185" stroke="#1f77b4" stroke-width="3"/>
+  <line x1="300" y1="250" x2="412.6" y2="250" stroke="#1f77b4" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="412.6" y1="185" x2="412.6" y2="250" stroke="#1f77b4" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M355 250 A55 55 0 0 0 347.6 222.5" fill="none" stroke="#1f77b4" stroke-width="2"/>
+  <circle cx="412.6" cy="185" r="5" fill="#1f77b4"/>
+
+  <!-- Green angle 90° - A, also in quadrant I -->
+  <line x1="300" y1="250" x2="365" y2="137.4" stroke="#2ca02c" stroke-width="3"/>
+  <line x1="300" y1="250" x2="365" y2="250" stroke="#2ca02c" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="365" y1="137.4" x2="365" y2="250" stroke="#2ca02c" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M365 234 L349 234 L349 250" fill="none" stroke="#2ca02c" stroke-width="2"/>
+  <path d="M300 195 A55 55 0 0 1 327.5 202.4" fill="none" stroke="#2ca02c" stroke-width="2"/>
+  <path d="M365 173 A32 32 0 0 1 346.5 164" fill="none" stroke="#2ca02c" stroke-width="2"/>
+  <circle cx="365" cy="137.4" r="5" fill="#2ca02c"/>
+
+  <!-- Minimal labels on the geometry -->
+  <text x="287" y="272" font-family="serif" font-size="18" fill="#222">O</text>
+  <text x="526" y="256" font-family="serif" font-size="17" fill="#222">x</text>
+  <text x="306" y="62" font-family="serif" font-size="17" fill="#222">y</text>
+
+  <text x="360" y="220" font-family="serif" font-size="19" fill="#1f77b4">A</text>
+  <text x="420" y="172" font-family="serif" font-size="17" fill="#1f77b4">blue: angle A</text>
+  <text x="377" y="286" font-family="serif" font-size="16" fill="#1f77b4">cos A</text>
+  <text x="424" y="222" font-family="serif" font-size="16" fill="#1f77b4">sin A</text>
+
+  <text x="225" y="185" font-family="serif" font-size="18" fill="#2ca02c">90° - A</text>
+  <text x="333" y="158" font-family="serif" font-size="18" fill="#2ca02c">A</text>
+  <text x="366" y="122" font-family="serif" font-size="17" fill="#2ca02c">green: angle 90° - A</text>
+  <text x="312" y="286" font-family="serif" font-size="16" fill="#2ca02c">sin A</text>
+  <text x="373" y="198" font-family="serif" font-size="16" fill="#2ca02c">cos A</text>
+
+  <!-- Legend / explanation panel -->
+  <rect x="575" y="70" width="290" height="335" fill="#fff" stroke="#c9c9c9" stroke-width="1.5"/>
+  <text x="595" y="108" font-family="serif" font-size="20" fill="#222">Example 1: both in QI</text>
+
+  <line x1="595" y1="140" x2="625" y2="140" stroke="#1f77b4" stroke-width="4"/>
+  <text x="640" y="146" font-family="serif" font-size="17" fill="#1f77b4">Blue angle = A</text>
+  <text x="640" y="172" font-family="serif" font-size="16" fill="#1f77b4">x-coordinate = cos A</text>
+  <text x="640" y="198" font-family="serif" font-size="16" fill="#1f77b4">y-coordinate = sin A</text>
+
+  <line x1="595" y1="240" x2="625" y2="240" stroke="#2ca02c" stroke-width="4"/>
+  <text x="640" y="246" font-family="serif" font-size="17" fill="#2ca02c">Green angle = 90° - A</text>
+  <text x="640" y="272" font-family="serif" font-size="16" fill="#2ca02c">x-coordinate = sin A</text>
+  <text x="640" y="298" font-family="serif" font-size="16" fill="#2ca02c">y-coordinate = cos A</text>
+
+  <text x="595" y="342" font-family="serif" font-size="17" fill="#222">Therefore:</text>
+  <text x="595" y="367" font-family="serif" font-size="17" fill="#2ca02c">cos(90° - A) = sin A</text>
+  <text x="595" y="392" font-family="serif" font-size="17" fill="#2ca02c">sin(90° - A) = cos A</text>
+</svg>

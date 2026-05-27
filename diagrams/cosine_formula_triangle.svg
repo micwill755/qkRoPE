@@ -1,0 +1,21 @@
+<svg width="580" height="360" viewBox="0 0 580 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="580" height="360" fill="white"/>
+  <line x1="90" y1="290" x2="490" y2="290" stroke="#222" stroke-width="2"/>
+  <line x1="90" y1="290" x2="285" y2="70" stroke="#222" stroke-width="2"/>
+  <line x1="285" y1="70" x2="490" y2="290" stroke="#222" stroke-width="2"/>
+  <line x1="285" y1="70" x2="285" y2="290" stroke="#777" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M285 275 L300 275 L300 290" fill="none" stroke="#777" stroke-width="2"/>
+  <path d="M126 290 A36 36 0 0 1 114 263" fill="none" stroke="#1f77b4" stroke-width="2"/>
+  <text x="82" y="315" font-family="serif" font-size="20">A</text>
+  <text x="492" y="315" font-family="serif" font-size="20">B</text>
+  <text x="283" y="58" font-family="serif" font-size="20">C</text>
+  <text x="280" y="315" font-family="serif" font-size="20">D</text>
+  <text x="180" y="165" font-family="serif" font-size="20">b</text>
+  <text x="390" y="165" font-family="serif" font-size="20">a</text>
+  <text x="292" y="185" font-family="serif" font-size="20">h</text>
+  <text x="178" y="313" font-family="serif" font-size="20">x</text>
+  <text x="374" y="313" font-family="serif" font-size="20">c - x</text>
+  <text x="134" y="281" font-family="serif" font-size="20">A</text>
+  <line x1="90" y1="320" x2="490" y2="320" stroke="#777" stroke-width="1.5"/>
+  <text x="282" y="342" font-family="serif" font-size="20">c</text>
+</svg>

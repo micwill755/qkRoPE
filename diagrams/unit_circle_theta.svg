@@ -1,0 +1,24 @@
+<svg width="520" height="360" viewBox="0 0 520 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#222"/>
+    </marker>
+  </defs>
+  <rect width="520" height="360" fill="white"/>
+  <line x1="70" y1="180" x2="450" y2="180" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="260" y1="320" x2="260" y2="40" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <circle cx="260" cy="180" r="115" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="260" y1="180" x2="359.6" y2="122.5" stroke="#1f77b4" stroke-width="3"/>
+  <line x1="359.6" y1="122.5" x2="359.6" y2="180" stroke="#d62728" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="260" y1="180" x2="359.6" y2="180" stroke="#2ca02c" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M305 180 A45 45 0 0 0 299 157.5" fill="none" stroke="#9467bd" stroke-width="2"/>
+  <circle cx="359.6" cy="122.5" r="5" fill="#1f77b4"/>
+  <text x="456" y="185" font-family="serif" font-size="18">x</text>
+  <text x="266" y="43" font-family="serif" font-size="18">y</text>
+  <text x="245" y="200" font-family="serif" font-size="18">O</text>
+  <text x="365" y="118" font-family="serif" font-size="18">P(cos θ, sin θ)</text>
+  <text x="305" y="198" font-family="serif" font-size="17">cos θ</text>
+  <text x="368" y="153" font-family="serif" font-size="17">sin θ</text>
+  <text x="312" y="164" font-family="serif" font-size="18">θ</text>
+  <text x="304" y="143" font-family="serif" font-size="17">1</text>
+</svg>

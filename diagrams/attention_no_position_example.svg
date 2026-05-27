@@ -1,0 +1,21 @@
+<svg width="900" height="430" viewBox="0 0 900 430" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="430" fill="white"/>
+  <text x="50" y="55" font-family="serif" font-size="26" fill="#222">Attention alone does not know order</text>
+
+  <text x="70" y="125" font-family="serif" font-size="44" font-weight="700" fill="#111">I</text>
+  <text x="145" y="125" font-family="serif" font-size="44" font-weight="700" fill="#111">bought</text>
+  <text x="315" y="125" font-family="serif" font-size="44" font-weight="700" fill="#111">an</text>
+  <text x="420" y="125" font-family="serif" font-size="44" font-weight="700" fill="#111">apple</text>
+  <text x="600" y="125" font-family="serif" font-size="44" font-weight="700" fill="#111">watch</text>
+
+  <line x1="70" y1="180" x2="810" y2="180" stroke="#ddd" stroke-width="2"/>
+
+  <text x="70" y="275" font-family="serif" font-size="44" font-weight="700" fill="#111">watch</text>
+  <text x="245" y="275" font-family="serif" font-size="44" font-weight="700" fill="#111">an</text>
+  <text x="350" y="275" font-family="serif" font-size="44" font-weight="700" fill="#111">apple</text>
+  <text x="535" y="275" font-family="serif" font-size="44" font-weight="700" fill="#111">I</text>
+  <text x="615" y="275" font-family="serif" font-size="44" font-weight="700" fill="#111">bought</text>
+
+  <text x="70" y="350" font-family="serif" font-size="20" fill="#555">Same words, different order.</text>
+  <text x="70" y="382" font-family="serif" font-size="20" fill="#555">Without positional information, attention can compare word content, but order is not built in.</text>
+</svg>

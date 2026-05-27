@@ -1,0 +1,48 @@
+<svg width="900" height="430" viewBox="0 0 900 430" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#222"/>
+    </marker>
+  </defs>
+  <rect width="900" height="430" fill="white"/>
+  <text x="40" y="45" font-family="serif" font-size="24" fill="#222">Self-attention for every word at once</text>
+
+  <rect x="50" y="95" width="130" height="90" fill="#eaf3ff" stroke="#1f77b4"/>
+  <text x="83" y="130" font-family="serif" font-size="20" fill="#1f77b4">Q</text>
+  <text x="75" y="158" font-family="serif" font-size="16" fill="#555">6 × 2</text>
+
+  <text x="205" y="150" font-family="serif" font-size="30" fill="#222">×</text>
+
+  <rect x="250" y="95" width="130" height="90" fill="#f0fff0" stroke="#2ca02c"/>
+  <text x="280" y="130" font-family="serif" font-size="20" fill="#2ca02c">Kᵀ</text>
+  <text x="278" y="158" font-family="serif" font-size="16" fill="#555">2 × 6</text>
+
+  <line x1="395" y1="140" x2="495" y2="140" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="515" y="85" width="165" height="110" fill="#fff" stroke="#444"/>
+  <text x="545" y="122" font-family="serif" font-size="20" fill="#222">scores</text>
+  <text x="548" y="152" font-family="serif" font-size="16" fill="#555">6 × 6</text>
+  <text x="538" y="178" font-family="serif" font-size="14" fill="#555">one row per word</text>
+
+  <line x1="598" y1="205" x2="598" y2="255" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="615" y="235" font-family="serif" font-size="16" fill="#222">softmax each row</text>
+
+  <rect x="515" y="270" width="165" height="90" fill="#f7eaff" stroke="#9467bd"/>
+  <text x="548" y="305" font-family="serif" font-size="20" fill="#9467bd">weights</text>
+  <text x="548" y="333" font-family="serif" font-size="16" fill="#555">6 × 6</text>
+
+  <rect x="250" y="270" width="130" height="90" fill="#fff4e8" stroke="#d07900"/>
+  <text x="283" y="305" font-family="serif" font-size="20" fill="#d07900">V</text>
+  <text x="276" y="333" font-family="serif" font-size="16" fill="#555">6 × 2</text>
+
+  <line x1="505" y1="315" x2="395" y2="315" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="435" y="300" font-family="serif" font-size="28" fill="#222">×</text>
+
+  <line x1="690" y1="315" x2="760" y2="315" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="775" y="270" width="105" height="90" fill="#fff" stroke="#444"/>
+  <text x="792" y="305" font-family="serif" font-size="18" fill="#222">contexts</text>
+  <text x="798" y="333" font-family="serif" font-size="16" fill="#555">6 × 2</text>
+
+  <text x="75" y="405" font-family="serif" font-size="17" fill="#222">Every row gets its own attention recipe, then every recipe mixes the same V table.</text>
+</svg>

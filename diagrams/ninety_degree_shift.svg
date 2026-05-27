@@ -1,0 +1,27 @@
+<svg width="590" height="390" viewBox="0 0 590 390" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#222"/>
+    </marker>
+  </defs>
+  <rect width="590" height="390" fill="white"/>
+  <line x1="90" y1="210" x2="500" y2="210" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="300" y1="345" x2="300" y2="55" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <circle cx="300" cy="210" r="125" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="300" y1="210" x2="408.3" y2="147.5" stroke="#1f77b4" stroke-width="3"/>
+  <line x1="300" y1="210" x2="237.5" y2="101.7" stroke="#d62728" stroke-width="3"/>
+  <circle cx="408.3" cy="147.5" r="5" fill="#1f77b4"/>
+  <circle cx="237.5" cy="101.7" r="5" fill="#d62728"/>
+  <path d="M350 210 A50 50 0 0 0 343.3 185" fill="none" stroke="#1f77b4" stroke-width="2"/>
+  <path d="M362.4 174 A72 72 0 0 0 264 147.6" fill="none" stroke="#d62728" stroke-width="2"/>
+  <line x1="237.5" y1="101.7" x2="237.5" y2="210" stroke="#d62728" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="300" y1="210" x2="237.5" y2="210" stroke="#d62728" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="418" y="136" font-family="serif" font-size="17">(cos θ, sin θ)</text>
+  <text x="46" y="62" font-family="serif" font-size="17">(cos(θ + 90°), sin(θ + 90°))</text>
+  <text x="118" y="84" font-family="serif" font-size="17">= (-sin θ, cos θ)</text>
+  <text x="354" y="194" font-family="serif" font-size="18">θ</text>
+  <text x="290" y="134" font-family="serif" font-size="18">90°</text>
+  <text x="205" y="232" font-family="serif" font-size="16">-sin θ</text>
+  <text x="196" y="157" font-family="serif" font-size="16">cos θ</text>
+  <text x="284" y="231" font-family="serif" font-size="18">O</text>
+</svg>

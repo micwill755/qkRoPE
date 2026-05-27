@@ -1,0 +1,32 @@
+<svg width="900" height="430" viewBox="0 0 900 430" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#222"/>
+    </marker>
+  </defs>
+  <rect width="900" height="430" fill="white"/>
+  <text x="40" y="45" font-family="serif" font-size="24" fill="#222">Absolute rotations, relative dot product</text>
+
+  <rect x="60" y="90" width="250" height="120" fill="#eaf3ff" stroke="#1f77b4"/>
+  <text x="85" y="125" font-family="serif" font-size="20" fill="#1f77b4">Query token at position m</text>
+  <text x="85" y="160" font-family="serif" font-size="18" fill="#1f77b4">qₘ → rotate(qₘ, mθ)</text>
+
+  <rect x="60" y="240" width="250" height="120" fill="#f0fff0" stroke="#2ca02c"/>
+  <text x="85" y="275" font-family="serif" font-size="20" fill="#2ca02c">Key token at position n</text>
+  <text x="85" y="310" font-family="serif" font-size="18" fill="#2ca02c">kₙ → rotate(kₙ, nθ)</text>
+
+  <line x1="320" y1="150" x2="435" y2="205" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="320" y1="300" x2="435" y2="235" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="455" y="160" width="210" height="120" fill="#fff" stroke="#444"/>
+  <text x="485" y="200" font-family="serif" font-size="20" fill="#222">dot product</text>
+  <text x="485" y="235" font-family="serif" font-size="18" fill="#222">(Rₘqₘ) · (Rₙkₙ)</text>
+
+  <line x1="675" y1="220" x2="760" y2="220" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="775" y="160" width="95" height="120" fill="#f7eaff" stroke="#9467bd"/>
+  <text x="792" y="200" font-family="serif" font-size="18" fill="#9467bd">offset</text>
+  <text x="795" y="235" font-family="serif" font-size="20" fill="#9467bd">m - n</text>
+
+  <text x="80" y="395" font-family="serif" font-size="17" fill="#222">RoPE rotates Q and K by absolute positions, but the comparison depends on the difference between positions.</text>
+</svg>

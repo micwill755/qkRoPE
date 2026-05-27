@@ -1,0 +1,51 @@
+<svg width="900" height="460" viewBox="0 0 900 460" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#222"/>
+    </marker>
+  </defs>
+  <rect width="900" height="460" fill="white"/>
+  <text x="40" y="45" font-family="serif" font-size="24" fill="#222">From 1D RoPE to 2D RoPE and AS2DRoPE</text>
+
+  <!-- Patch grid -->
+  <text x="60" y="90" font-family="serif" font-size="18" fill="#222">Image patches live on a grid</text>
+  <g stroke="#444" fill="#fafafa">
+    <rect x="70" y="120" width="45" height="45"/>
+    <rect x="115" y="120" width="45" height="45"/>
+    <rect x="160" y="120" width="45" height="45"/>
+    <rect x="70" y="165" width="45" height="45"/>
+    <rect x="115" y="165" width="45" height="45" fill="#fff4e8"/>
+    <rect x="160" y="165" width="45" height="45"/>
+    <rect x="70" y="210" width="45" height="45"/>
+    <rect x="115" y="210" width="45" height="45"/>
+    <rect x="160" y="210" width="45" height="45"/>
+  </g>
+  <text x="119" y="192" font-family="serif" font-size="16" fill="#d07900">row i</text>
+  <text x="119" y="212" font-family="serif" font-size="16" fill="#d07900">col j</text>
+
+  <line x1="230" y1="185" x2="340" y2="185" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="360" y="105" width="220" height="160" fill="#fff" stroke="#444"/>
+  <text x="385" y="140" font-family="serif" font-size="20" fill="#222">2D RoPE</text>
+  <text x="385" y="175" font-family="serif" font-size="16" fill="#1f77b4">first half dims: row rotation</text>
+  <text x="385" y="205" font-family="serif" font-size="16" fill="#2ca02c">second half dims: col rotation</text>
+  <text x="385" y="240" font-family="serif" font-size="16" fill="#555">vertical and horizontal offsets</text>
+
+  <line x1="590" y1="185" x2="700" y2="185" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="720" y="95" width="140" height="180" fill="#f0fff0" stroke="#2ca02c"/>
+  <text x="745" y="130" font-family="serif" font-size="20" fill="#2ca02c">AS2DRoPE</text>
+  <text x="735" y="165" font-family="serif" font-size="15" fill="#2ca02c">scale row/col</text>
+  <text x="735" y="190" font-family="serif" font-size="15" fill="#2ca02c">when grid size</text>
+  <text x="735" y="215" font-family="serif" font-size="15" fill="#2ca02c">changes</text>
+
+  <rect x="95" y="320" width="300" height="80" fill="#fff" stroke="#c9c9c9"/>
+  <text x="120" y="350" font-family="serif" font-size="17" fill="#222">training grid: 14 × 14</text>
+  <text x="120" y="377" font-family="serif" font-size="17" fill="#222">current grid: 28 × 28</text>
+
+  <line x1="410" y1="360" x2="520" y2="360" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="540" y="320" width="270" height="80" fill="#fff" stroke="#c9c9c9"/>
+  <text x="565" y="350" font-family="serif" font-size="17" fill="#222">row 20 becomes 20 × 14 / 28</text>
+  <text x="565" y="377" font-family="serif" font-size="17" fill="#222">scaled row = 10</text>
+</svg>
